@@ -1,0 +1,29 @@
+body {
+  padding-top: 40px;
+}
+
+.search-list {
+  margin: 20px 0 0;
+  max-height: 300px;
+  overflow: scroll;
+
+  .search-list-box {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+
+    &:last-child { margin-bottom: 0; }
+
+    h3 {
+      margin: 0;
+    }
+  }
+}
+
+.image-preview {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 5px;
+  padding: 5px;
+}
