@@ -1,0 +1,40 @@
+/* line 1, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/site.css.scss */
+body {
+  padding-top: 40px; }
+
+/* line 5, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/site.css.scss */
+.search-list {
+  margin: 20px 0 0;
+  max-height: 300px;
+  overflow: scroll; }
+  /* line 10, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/site.css.scss */
+  .search-list .search-list-box {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1; }
+    /* line 15, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/site.css.scss */
+    .search-list .search-list-box:last-child {
+      margin-bottom: 0; }
+    /* line 17, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/site.css.scss */
+    .search-list .search-list-box h3 {
+      margin: 0; }
+
+/* line 23, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/site.css.scss */
+.image-preview {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 5px;
+  padding: 5px; }
+
+/* line 31, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/site.css.scss */
+.checkbox-list {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+  padding: 10px;
+  max-height: 210px;
+  overflow: scroll; }
+  /* line 39, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/site.css.scss */
+  .checkbox-list .checkbox {
+    padding-top: 0; }
