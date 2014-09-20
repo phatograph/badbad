@@ -9,3 +9,7 @@ bundle exec middleman -p 4002
 ```bash
 bundle exec middleman build
 ```
+
+### Using static files
+
+Just drop files in `build/` in your favourite webserver!
