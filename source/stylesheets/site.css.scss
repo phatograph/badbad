@@ -27,3 +27,16 @@ body {
   margin-top: 5px;
   padding: 5px;
 }
+
+.checkbox-list {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+  padding: 10px;
+  max-height: 210px;
+  overflow: scroll;
+
+  .checkbox {
+    padding-top: 0;
+  }
+}
