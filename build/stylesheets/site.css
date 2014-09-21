@@ -38,3 +38,12 @@ body {
   /* line 39, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/site.css.scss */
   .checkbox-list .checkbox {
     padding-top: 0; }
+
+/* line 44, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/site.css.scss */
+.scrolling-table {
+  border: 1px solid #ccc;
+  max-height: 210px;
+  overflow: scroll; }
+  /* line 49, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/site.css.scss */
+  .scrolling-table table tr th {
+    border-top: none; }

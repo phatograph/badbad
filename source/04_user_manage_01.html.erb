@@ -1,0 +1,45 @@
+---
+title: User manage
+---
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">User manage</h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-xs-6">
+        <div class="page-header" style="margin-top: 0;">
+          <h3 style="margin-top: 7px;">
+            รายชื่อห้องลูกค้า
+            <div class="pull-right">
+              <a class="btn btn-primary" href>Check out</a>
+              <a class="btn btn-primary" href>Add new room</a>
+            </div>
+          </h3>
+        </div>
+        <div class="scrolling-table">
+          <table class="table">
+            <tr>
+              <th></th>
+              <th>Room name</th>
+              <th>Status</th>
+            </tr>
+            <% 30.times do |i| %>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>Bedroom <%= i + 1 %></td>
+                <td>Waiting</td>
+              </tr>
+            <% end %>
+          </table>
+        </div>
+      </div>
+      <div class="col-xs-6">
+        <div class="page-header" style="margin-top: 0;">
+          <h3 style="margin-top: 7px;">เลือกวันนัดติดตั้ง</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -40,3 +40,13 @@ body {
     padding-top: 0;
   }
 }
+
+.scrolling-table {
+  border: 1px solid #ccc;
+  max-height: 210px;
+  overflow: scroll;
+
+  table tr th {
+    border-top: none;
+  }
+}
