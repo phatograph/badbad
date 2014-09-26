@@ -83,7 +83,24 @@ form h4 {
   max-height: 210px;
   overflow: scroll;
 
-  table tr th {
-    border-top: none;
+  table {
+    &.table-bordered {
+      border: none;
+    }
+
+    tr {
+      th {
+        border-top: none;
+        text-align: center;
+        vertical-align: middle;
+        background-color: #f1f1f1;
+      }
+
+      th, td {
+        &:first-child {
+          border-left: none;
+        }
+      }
+    }
   }
 }
