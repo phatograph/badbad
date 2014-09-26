@@ -79,6 +79,15 @@ form h4 {
   border: 1px solid #ccc;
   max-height: 210px;
   overflow: scroll; }
-  /* line 86, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+  /* line 87, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+  .scrolling-table table.table-bordered {
+    border: none; }
+  /* line 92, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
   .scrolling-table table tr th {
-    border-top: none; }
+    border-top: none;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #f1f1f1; }
+  /* line 100, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+  .scrolling-table table tr th:first-child, .scrolling-table table tr td:first-child {
+    border-left: none; }
