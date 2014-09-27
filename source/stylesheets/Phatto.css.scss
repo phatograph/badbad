@@ -3,9 +3,19 @@
   h3 { margin-bottom: 30px; }
 }
 
-form h4 {
-  background-color: #eee;
-  padding: 10px;
+form {
+  h4 {
+    background-color: #eee;
+    padding: 10px;
+  }
+
+  &.form-horizontal {
+    .form-group {
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
 }
 
 .submit-area {
@@ -102,5 +112,15 @@ form h4 {
         }
       }
     }
+  }
+}
+
+.canvas-area {
+  padding-top: 10px;
+
+  canvas {
+    height: 300px;
+    width: 100%;
+    background-color: #ccc;
   }
 }
