@@ -28,8 +28,8 @@ form {
   padding-top: 20px;
 
   canvas {
-  width: 800px;
-  height: 600px;
+    width: 800px;
+    height: 600px;
   }
 }
 
@@ -122,5 +122,6 @@ form {
     height: 300px;
     width: 100%;
     background-color: #ccc;
+    border: 1px solid #ccc;
   }
 }

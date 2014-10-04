@@ -102,4 +102,5 @@ form.form-horizontal .form-group:last-child {
   .canvas-area canvas {
     height: 300px;
     width: 100%;
-    background-color: #ccc; }
+    background-color: #ccc;
+    border: 1px solid #ccc; }
