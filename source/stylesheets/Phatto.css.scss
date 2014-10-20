@@ -16,6 +16,20 @@ form {
       }
     }
   }
+
+  &.form-inline {
+    .form-group {
+      margin-right: 15px;
+      &:last-child { margin-right: 0; }
+    }
+
+    .form-row {
+      margin-bottom: 10px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
 }
 
 .submit-area {
