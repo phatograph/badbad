@@ -63,6 +63,92 @@ title: Mechanic
         <% end %>
       </table>
     </div>
+    <p>Overflowing table.</p>
+    <div class="scrolling-table" style="max-height: 345px;">
+      <table class="table table-bordered">
+        <tr>
+          <th rowspan="2"><div style="width: 80px;">Team</div></th>
+          <th colspan="2">19/09/2557</th>
+          <th colspan="2">20/09/2557</th>
+          <th colspan="2">21/09/2557</th>
+          <th colspan="2">22/09/2557</th>
+          <th colspan="2">23/09/2557</th>
+          <th colspan="2">24/09/2557</th>
+          <th colspan="2">25/09/2557</th>
+          <th colspan="2">25/09/2557</th>
+          <th colspan="2">25/09/2557</th>
+          <th colspan="2">25/09/2557</th>
+          <th colspan="2">25/09/2557</th>
+          <th colspan="2">25/09/2557</th>
+          <th colspan="2">25/09/2557</th>
+        </tr>
+        <tr>
+          <th>M</th>
+          <th>A</th>
+          <th>M</th>
+          <th>A</th>
+          <th>M</th>
+          <th>A</th>
+          <th>M</th>
+          <th>A</th>
+          <th>M</th>
+          <th>A</th>
+          <th>M</th>
+          <th>A</th>
+          <th>M</th>
+          <th>A</th>
+          <th>M</th>
+          <th>A</th>
+          <th>M</th>
+          <th>A</th>
+          <th>M</th>
+          <th>A</th>
+          <th>M</th>
+          <th>A</th>
+          <th>M</th>
+          <th>A</th>
+          <th>M</th>
+          <th>A</th>
+        </tr>
+        <tr>
+          <td>Test 1</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>Bedroom 1</td>
+          <td>Bedroom 1</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <% 30.times do |i| %>
+          <tr>
+            <td>Test <%= i + 2 %></td>
+            <% 26.times do %>
+              <td>-</td>
+            <% end %>
+          </tr>
+        <% end %>
+      </table>
+    </div>
   </div>
 </div>
 

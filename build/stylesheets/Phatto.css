@@ -93,24 +93,31 @@ form.form-inline .form-row {
 .scrolling-table {
   border: 1px solid #ccc;
   max-height: 210px;
+  margin-bottom: 10px;
   overflow: scroll; }
-  /* line 111, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+  /* line 110, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+  .scrolling-table:last-child {
+    margin-bottom: 0; }
+  /* line 113, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
   .scrolling-table table.table-bordered {
     border: none; }
-  /* line 116, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+  /* line 118, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
   .scrolling-table table tr th {
     border-top: none;
     text-align: center;
     vertical-align: middle;
     background-color: #f1f1f1; }
-  /* line 124, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+  /* line 126, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
   .scrolling-table table tr th:first-child, .scrolling-table table tr td:first-child {
     border-left: none; }
+  /* line 130, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+  .scrolling-table table tr th:last-child, .scrolling-table table tr td:last-child {
+    border-right: none; }
 
-/* line 132, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+/* line 138, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
 .canvas-area {
   padding-top: 10px; }
-  /* line 135, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+  /* line 141, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
   .canvas-area canvas {
     height: 300px;
     width: 100%;
