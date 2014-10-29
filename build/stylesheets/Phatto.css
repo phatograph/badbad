@@ -1,75 +1,75 @@
-/* line 1, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+/* line 1, /Users/phatograph/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
 body {
   padding-bottom: 50px; }
-  /* line 3, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+  /* line 3, /Users/phatograph/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
   body h3 {
     margin-bottom: 30px; }
 
-/* line 7, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+/* line 7, /Users/phatograph/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
 form h4 {
   background-color: #eee;
   padding: 10px; }
-/* line 14, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+/* line 14, /Users/phatograph/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
 form.form-horizontal .form-group:last-child {
   margin-bottom: 0; }
-/* line 21, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+/* line 21, /Users/phatograph/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
 form.form-inline .form-group {
   margin-right: 15px; }
-  /* line 23, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+  /* line 23, /Users/phatograph/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
   form.form-inline .form-group:last-child {
     margin-right: 0; }
-/* line 26, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+/* line 26, /Users/phatograph/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
 form.form-inline .form-row {
   margin-bottom: 10px; }
-  /* line 28, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+  /* line 28, /Users/phatograph/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
   form.form-inline .form-row:last-child {
     margin-bottom: 0; }
 
-/* line 35, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+/* line 35, /Users/phatograph/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
 .submit-area {
   background-color: #eee;
   padding: 20px 0;
   margin: 20px 0 0; }
 
-/* line 41, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+/* line 41, /Users/phatograph/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
 .tab-content {
   padding-top: 20px; }
-  /* line 44, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+  /* line 44, /Users/phatograph/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
   .tab-content canvas {
     width: 800px;
     height: 600px; }
 
-/* line 51, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+/* line 51, /Users/phatograph/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
 .upload-page h3 {
   padding: 10px;
   background-color: #f1f1f1; }
-/* line 56, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+/* line 56, /Users/phatograph/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
 .upload-page h4 {
   padding: 10px 0; }
 
-/* line 61, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+/* line 61, /Users/phatograph/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
 .result canvas {
   width: 800px;
   height: 600px; }
 
-/* line 66, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+/* line 66, /Users/phatograph/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
 .search-list {
   margin: 20px 0 0;
   max-height: 300px;
   overflow: scroll; }
-  /* line 71, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+  /* line 71, /Users/phatograph/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
   .search-list .search-list-box {
     padding: 10px;
     margin-bottom: 10px;
     background-color: #f1f1f1; }
-    /* line 76, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+    /* line 76, /Users/phatograph/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
     .search-list .search-list-box:last-child {
       margin-bottom: 0; }
-    /* line 78, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+    /* line 78, /Users/phatograph/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
     .search-list .search-list-box h3 {
       margin: 0; }
 
-/* line 84, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+/* line 84, /Users/phatograph/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
 .image-preview {
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -77,7 +77,7 @@ form.form-inline .form-row {
   margin-top: 5px;
   padding: 5px; }
 
-/* line 92, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+/* line 92, /Users/phatograph/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
 .checkbox-list {
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -85,39 +85,39 @@ form.form-inline .form-row {
   padding: 10px;
   max-height: 210px;
   overflow: scroll; }
-  /* line 100, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+  /* line 100, /Users/phatograph/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
   .checkbox-list .checkbox {
     padding-top: 0; }
 
-/* line 105, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+/* line 105, /Users/phatograph/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
 .scrolling-table {
   border: 1px solid #ccc;
   max-height: 210px;
   margin-bottom: 10px;
   overflow: scroll; }
-  /* line 110, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+  /* line 110, /Users/phatograph/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
   .scrolling-table:last-child {
     margin-bottom: 0; }
-  /* line 113, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+  /* line 113, /Users/phatograph/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
   .scrolling-table table.table-bordered {
     border: none; }
-  /* line 118, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+  /* line 118, /Users/phatograph/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
   .scrolling-table table tr th {
     border-top: none;
     text-align: center;
     vertical-align: middle;
     background-color: #f1f1f1; }
-  /* line 126, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+  /* line 126, /Users/phatograph/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
   .scrolling-table table tr th:first-child, .scrolling-table table tr td:first-child {
     border-left: none; }
-  /* line 130, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+  /* line 130, /Users/phatograph/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
   .scrolling-table table tr th:last-child, .scrolling-table table tr td:last-child {
     border-right: none; }
 
-/* line 138, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+/* line 138, /Users/phatograph/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
 .canvas-area {
   padding-top: 10px; }
-  /* line 141, /Users/phatomacpro/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
+  /* line 141, /Users/phatograph/Desktop/Projects/badbad/source/stylesheets/Phatto.css.scss */
   .canvas-area canvas {
     height: 300px;
     width: 100%;
